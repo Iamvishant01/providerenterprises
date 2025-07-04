@@ -133,6 +133,56 @@
 .landing-text button{
   padding: 2.5%;
 }
+.features-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 20px;
+  flex-wrap: wrap;
+  overflow-x: hidden;
+}
+
+.feature-item {
+  text-align: center;
+  min-width: 200px;
+  flex-shrink: 0;
+}
+
+.feature-item h3 {
+  margin: 0;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  justify-content: center;
+}
+
+/* Small screen horizontal scroll effect */
+@media (max-width: 768px) {
+  .features-container {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    gap: 20px;
+  }
+
+  .feature-item {
+    flex: 0 0 auto;
+    margin-right: 10px;
+  }
+
+  /* Optional: Hide scrollbars */
+  .features-container::-webkit-scrollbar {
+    display: none;
+  }
+  .features-container {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
 @media (max-width: 768px) {
   .landing-body {
     background-image: url('./assets/landingbg2.png');
