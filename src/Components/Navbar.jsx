@@ -1,6 +1,7 @@
 import Logo from './resources/Logo.png';
 const Navbar = () => {
   return (
+    <>
     <nav className="navbar navbar-expand-lg bg-body-transparent">
       <div className="container-fluid">
         <a className="navbar-brand" href="/">
@@ -59,6 +60,10 @@ const Navbar = () => {
         </div>
       </div>
     </nav>
+    <div>
+      <hr style={{ border: "1px solid rgb(0, 102, 255)", margin: "20px 0" }} />
+    </div>
+    </>
   );
 };
 
