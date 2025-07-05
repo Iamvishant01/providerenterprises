@@ -339,7 +339,6 @@
   width: 30%;
   margin: 2%;
 }
-
 @media (max-width: 768px) {
   .landing-body {
     background-image: url('./assets/landingbg2.png');

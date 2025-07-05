@@ -21,7 +21,7 @@ export default function Landing() {
         </h2>
         <br />
         <h3 className='lexend-deca' style={{ fontSize: "22px" }} data-aos="fade-right">
-          For Confidence that begins at the <br />Scalp.
+          For Confidence that begins <br /> at the Scalp.
         </h3>
         <br />
         <button
