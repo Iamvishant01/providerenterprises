@@ -20,7 +20,7 @@ export default function Landing() {
           2x Volume. <br /> 2x Strength.
         </h2>
         <br />
-        <h3 className='lexend-deca' style={{ fontSize: "24px" }} data-aos="fade-right">
+        <h3 className='lexend-deca' style={{ fontSize: "22px" }} data-aos="fade-right">
           For Confidence that begins at the <br />Scalp.
         </h3>
         <br />

@@ -317,6 +317,28 @@
   box-shadow: 0 0 15px rgba(0, 123, 255, 0.6); /* Bootstrap primary blue glow */
   transition: all 0.3s ease-in-out;
 }
+.left-img-section {
+  flex: 0 0 60%;
+}
+
+.right-text-section {
+  flex: 0 0 40%;
+}
+.right-text-section h3{
+  font-size: 40px;
+}
+
+/* Ensuring image fills its container */
+.object-fit-cover {
+  object-fit: cover;
+  height: 100%;
+}
+.custom-button {
+  padding: 6px 14px;
+  font-size: 14px;
+  width: 30%;
+  margin: 2%;
+}
 
 @media (max-width: 768px) {
   .landing-body {

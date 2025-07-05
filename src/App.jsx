@@ -2,6 +2,7 @@ import './App.css'
 import Features from './Components/features'
 import Guide from './Components/Guide'
 import Landing from './Components/Landing'
+import Learnmore from './Components/Learnmore'
 import Navbar from './Components/Navbar'
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     <Landing/>
     <Features/>
     <Guide/>
+    <Learnmore/>
     </>
   )
 }
