@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-.lexend{
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Lexend:wght@100..900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Podkova:wght@400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');.lexend{
   font-family: "Lexend", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -117,6 +116,128 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+.podkova{
+  font-family: "Podkova", serif;
+  font-style: normal;
+}
+
+/* Montserrat Alternates */
+.montserrat-alternates-thin {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.montserrat-alternates-extralight {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.montserrat-alternates-light {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.montserrat-alternates-regular {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.montserrat-alternates-medium {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.montserrat-alternates-semibold {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.montserrat-alternates-bold {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.montserrat-alternates-extrabold {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.montserrat-alternates-black {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.montserrat-alternates-thin-italic {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.montserrat-alternates-extralight-italic {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.montserrat-alternates-light-italic {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.montserrat-alternates-regular-italic {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.montserrat-alternates-medium-italic {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.montserrat-alternates-semibold-italic {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.montserrat-alternates-bold-italic {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.montserrat-alternates-extrabold-italic {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.montserrat-alternates-black-italic {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+.custom-guide-anchor{
+  font-size: 15px;
+  color: black;
+  text-underline-offset: 5px;
+  text-decoration: underline #0D6EFD;
+}
+
 .landing-body {
   background-image: url('./assets/landingbg.png'); /* Replace with your image path */
   background-size: cover;                 /* Make the image cover the entire div */
@@ -181,6 +302,20 @@
     -ms-overflow-style: none;
     scrollbar-width: none;
   }
+}
+.card-img-top {
+  object-fit: cover;
+  height: 180px;
+  border-radius: 0%;
+}
+
+.card-header {
+  font-size: 0.9rem;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+.shadow-blue-glow {
+  box-shadow: 0 0 15px rgba(0, 123, 255, 0.6); /* Bootstrap primary blue glow */
+  transition: all 0.3s ease-in-out;
 }
 
 @media (max-width: 768px) {
