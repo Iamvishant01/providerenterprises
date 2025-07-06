@@ -4,6 +4,7 @@ import Guide from './Components/Guide'
 import Landing from './Components/Landing'
 import Learnmore from './Components/Learnmore'
 import Navbar from './Components/Navbar'
+import Offerings from './Components/Offerings'
 import Reliable from './Components/reliable'
 import Research from './Components/Research'
 
@@ -18,6 +19,7 @@ function App() {
     <Learnmore/>
     <Reliable/>
     <Research/>
+    <Offerings/>
     </>
   )
 }

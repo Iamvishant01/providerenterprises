@@ -23,7 +23,7 @@ const Guide = () => {
             Because <br />
             <span>You’re Unique</span><span className="text-dark">.</span>
           </h2>
-          <p className="text-muted lexend-deca">Personalization Works Better</p>
+          <p className="text-muted lexend-deca text-center">Personalization Works Better</p>
           <a href="#" className="d-inline-flex align-items-center poppins-regular custom-guide-anchor">
             See How &nbsp;
             <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#0D6EFD">
