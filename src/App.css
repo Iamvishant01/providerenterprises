@@ -420,4 +420,7 @@
     text-align: left;
     padding: 2% !important;
   }
+  #guide-custom-txt{
+    text-align: center;
+  }
 }
