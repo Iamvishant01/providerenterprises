@@ -5,6 +5,7 @@ import Landing from './Components/Landing'
 import Learnmore from './Components/Learnmore'
 import Navbar from './Components/Navbar'
 import Reliable from './Components/reliable'
+import Research from './Components/Research'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
     <Guide/>
     <Learnmore/>
     <Reliable/>
+    <Research/>
     </>
   )
 }
