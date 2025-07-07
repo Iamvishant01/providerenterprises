@@ -383,6 +383,14 @@
   width: 30%;
   margin: 2%;
 }
+.footer-link {
+  color: white;
+  text-decoration: none;
+}
+.footer-item {
+  margin-bottom: 0.5rem; /* Adjust as needed */
+}
+
 @media (max-width: 768px) {
   .landing-body {
     background-image: url('./assets/landingbg2.png');
@@ -422,5 +430,8 @@
   }
   #guide-custom-txt{
     text-align: center;
+  }
+  .custom-form{
+    padding: 0;
   }
 }

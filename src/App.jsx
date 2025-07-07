@@ -1,5 +1,6 @@
 import './App.css'
 import Features from './Components/features'
+import Footer from './Components/Footer'
 import Guide from './Components/Guide'
 import Landing from './Components/Landing'
 import Learnmore from './Components/Learnmore'
@@ -20,6 +21,7 @@ function App() {
     <Reliable/>
     <Research/>
     <Offerings/>
+    <Footer/>
     </>
   )
 }
